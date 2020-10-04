@@ -1,3 +1,4 @@
 #!/bin/bash
-users=$(who|wc - l)
+echo $(who)
+users=$(who|wc -l)
 echo "$users"

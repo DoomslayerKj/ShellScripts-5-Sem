@@ -1,7 +1,7 @@
 #!/bin/bash
-file=file.txt
-lines=$(wc -l file.txt)
-characters=$(wc -c file.txt)
+file=var.txt
+lines=$(wc -l var.txt)
+characters=$(wc -c var.txt)
 words=$(wc -w $file)
 
 
