@@ -2,7 +2,7 @@
 
 read -p "Enter User Name: " name
 
-exist=$(cat /etc/passwd | grep -i $name | wc -l)
+exist=$(cat /etc/passwd | grep -w $name | wc -l)
 flag=0
 
 
