@@ -24,7 +24,7 @@ int main(int argc , char* argv[])
   }
  
     printf("Information for %s\n",argv[1]);
-    rintf("---------------------------\n");
+    printf("---------------------------\n");
     printf("File Size: \t\t%d bytes\n",fileStat.st_size);
     printf("Number of Links: \t%d\n",fileStat.st_nlink);
     printf("File inode: \t\t%d\n",fileStat.st_ino);
