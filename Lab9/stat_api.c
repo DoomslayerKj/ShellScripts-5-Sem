@@ -23,7 +23,7 @@ int main(int argc , char* argv[])
   	return 1;
   }
  
-    printf("Information for %s\n",argv[1])
+    printf("Information for %s\n",argv[1]);
     printf("---------------------------\n");
     printf("File Size: \t\t%d bytes\n",fileStat.st_size);
     printf("Number of Links: \t%d\n",fileStat.st_nlink);
